@@ -4,8 +4,8 @@
   "description": "Tinder based web application to find photorapgher friends.",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "tailwindcss -i ./input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
   },
   "author": "Vincenzo Landi",
   "license": "ISC",
