@@ -1,0 +1,15 @@
+{
+  "name": "phriends",
+  "version": "1.0.0",
+  "description": "Tinder based web application to find photorapgher friends.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Vincenzo Landi",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
